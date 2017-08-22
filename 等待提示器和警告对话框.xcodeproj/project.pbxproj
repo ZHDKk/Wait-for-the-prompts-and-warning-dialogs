@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0A2A6F91F4C00F1008031D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A6F81F4C00F1008031D6 /* main.m */; };
+		F0A2A6FC1F4C00F1008031D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A6FB1F4C00F1008031D6 /* AppDelegate.m */; };
+		F0A2A6FF1F4C00F1008031D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A6FE1F4C00F1008031D6 /* ViewController.m */; };
+		F0A2A7021F4C00F1008031D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7001F4C00F1008031D6 /* Main.storyboard */; };
+		F0A2A7041F4C00F1008031D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7031F4C00F1008031D6 /* Assets.xcassets */; };
+		F0A2A7071F4C00F1008031D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A7051F4C00F1008031D6 /* LaunchScreen.storyboard */; };
+		F0A2A7121F4C00F1008031D6 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A7111F4C00F1008031D6 /* ___________Tests.m */; };
+		F0A2A71D1F4C00F1008031D6 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A71C1F4C00F1008031D6 /* ___________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0A2A70E1F4C00F1008031D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A2A6EC1F4C00F1008031D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A2A6F31F4C00F1008031D6;
+			remoteInfo = "等待提示器和警告对话框";
+		};
+		F0A2A7191F4C00F1008031D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A2A6EC1F4C00F1008031D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A2A6F31F4C00F1008031D6;
+			remoteInfo = "等待提示器和警告对话框";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0A2A6F41F4C00F1008031D6 /* 等待提示器和警告对话框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "等待提示器和警告对话框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A2A6F81F4C00F1008031D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0A2A6FA1F4C00F1008031D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0A2A6FB1F4C00F1008031D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0A2A6FD1F4C00F1008031D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0A2A6FE1F4C00F1008031D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0A2A7011F4C00F1008031D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0A2A7031F4C00F1008031D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0A2A7061F4C00F1008031D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0A2A7081F4C00F1008031D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A2A70D1F4C00F1008031D6 /* 等待提示器和警告对话框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "等待提示器和警告对话框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A2A7111F4C00F1008031D6 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		F0A2A7131F4C00F1008031D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A2A7181F4C00F1008031D6 /* 等待提示器和警告对话框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "等待提示器和警告对话框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A2A71C1F4C00F1008031D6 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		F0A2A71E1F4C00F1008031D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0A2A6F11F4C00F1008031D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2A70A1F4C00F1008031D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2A7151F4C00F1008031D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0A2A6EB1F4C00F1008031D6 = {
+			isa = PBXGroup;
+			children = (
+				F0A2A6F61F4C00F1008031D6 /* 等待提示器和警告对话框 */,
+				F0A2A7101F4C00F1008031D6 /* 等待提示器和警告对话框Tests */,
+				F0A2A71B1F4C00F1008031D6 /* 等待提示器和警告对话框UITests */,
+				F0A2A6F51F4C00F1008031D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A2A6F51F4C00F1008031D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A6F41F4C00F1008031D6 /* 等待提示器和警告对话框.app */,
+				F0A2A70D1F4C00F1008031D6 /* 等待提示器和警告对话框Tests.xctest */,
+				F0A2A7181F4C00F1008031D6 /* 等待提示器和警告对话框UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A2A6F61F4C00F1008031D6 /* 等待提示器和警告对话框 */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A6FA1F4C00F1008031D6 /* AppDelegate.h */,
+				F0A2A6FB1F4C00F1008031D6 /* AppDelegate.m */,
+				F0A2A6FD1F4C00F1008031D6 /* ViewController.h */,
+				F0A2A6FE1F4C00F1008031D6 /* ViewController.m */,
+				F0A2A7001F4C00F1008031D6 /* Main.storyboard */,
+				F0A2A7031F4C00F1008031D6 /* Assets.xcassets */,
+				F0A2A7051F4C00F1008031D6 /* LaunchScreen.storyboard */,
+				F0A2A7081F4C00F1008031D6 /* Info.plist */,
+				F0A2A6F71F4C00F1008031D6 /* Supporting Files */,
+			);
+			path = "等待提示器和警告对话框";
+			sourceTree = "<group>";
+		};
+		F0A2A6F71F4C00F1008031D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A6F81F4C00F1008031D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0A2A7101F4C00F1008031D6 /* 等待提示器和警告对话框Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A7111F4C00F1008031D6 /* ___________Tests.m */,
+				F0A2A7131F4C00F1008031D6 /* Info.plist */,
+			);
+			path = "等待提示器和警告对话框Tests";
+			sourceTree = "<group>";
+		};
+		F0A2A71B1F4C00F1008031D6 /* 等待提示器和警告对话框UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A71C1F4C00F1008031D6 /* ___________UITests.m */,
+				F0A2A71E1F4C00F1008031D6 /* Info.plist */,
+			);
+			path = "等待提示器和警告对话框UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A2A6F31F4C00F1008031D6 /* 等待提示器和警告对话框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A2A7211F4C00F1008031D6 /* Build configuration list for PBXNativeTarget "等待提示器和警告对话框" */;
+			buildPhases = (
+				F0A2A6F01F4C00F1008031D6 /* Sources */,
+				F0A2A6F11F4C00F1008031D6 /* Frameworks */,
+				F0A2A6F21F4C00F1008031D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "等待提示器和警告对话框";
+			productName = "等待提示器和警告对话框";
+			productReference = F0A2A6F41F4C00F1008031D6 /* 等待提示器和警告对话框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0A2A70C1F4C00F1008031D6 /* 等待提示器和警告对话框Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A2A7241F4C00F1008031D6 /* Build configuration list for PBXNativeTarget "等待提示器和警告对话框Tests" */;
+			buildPhases = (
+				F0A2A7091F4C00F1008031D6 /* Sources */,
+				F0A2A70A1F4C00F1008031D6 /* Frameworks */,
+				F0A2A70B1F4C00F1008031D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A2A70F1F4C00F1008031D6 /* PBXTargetDependency */,
+			);
+			name = "等待提示器和警告对话框Tests";
+			productName = "等待提示器和警告对话框Tests";
+			productReference = F0A2A70D1F4C00F1008031D6 /* 等待提示器和警告对话框Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0A2A7171F4C00F1008031D6 /* 等待提示器和警告对话框UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A2A7271F4C00F1008031D6 /* Build configuration list for PBXNativeTarget "等待提示器和警告对话框UITests" */;
+			buildPhases = (
+				F0A2A7141F4C00F1008031D6 /* Sources */,
+				F0A2A7151F4C00F1008031D6 /* Frameworks */,
+				F0A2A7161F4C00F1008031D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A2A71A1F4C00F1008031D6 /* PBXTargetDependency */,
+			);
+			name = "等待提示器和警告对话框UITests";
+			productName = "等待提示器和警告对话框UITests";
+			productReference = F0A2A7181F4C00F1008031D6 /* 等待提示器和警告对话框UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A2A6EC1F4C00F1008031D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zh dk";
+				TargetAttributes = {
+					F0A2A6F31F4C00F1008031D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F0A2A70C1F4C00F1008031D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0A2A6F31F4C00F1008031D6;
+					};
+					F0A2A7171F4C00F1008031D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0A2A6F31F4C00F1008031D6;
+					};
+				};
+			};
+			buildConfigurationList = F0A2A6EF1F4C00F1008031D6 /* Build configuration list for PBXProject "等待提示器和警告对话框" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0A2A6EB1F4C00F1008031D6;
+			productRefGroup = F0A2A6F51F4C00F1008031D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A2A6F31F4C00F1008031D6 /* 等待提示器和警告对话框 */,
+				F0A2A70C1F4C00F1008031D6 /* 等待提示器和警告对话框Tests */,
+				F0A2A7171F4C00F1008031D6 /* 等待提示器和警告对话框UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0A2A6F21F4C00F1008031D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2A7071F4C00F1008031D6 /* LaunchScreen.storyboard in Resources */,
+				F0A2A7041F4C00F1008031D6 /* Assets.xcassets in Resources */,
+				F0A2A7021F4C00F1008031D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2A70B1F4C00F1008031D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2A7161F4C00F1008031D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0A2A6F01F4C00F1008031D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2A6FF1F4C00F1008031D6 /* ViewController.m in Sources */,
+				F0A2A6FC1F4C00F1008031D6 /* AppDelegate.m in Sources */,
+				F0A2A6F91F4C00F1008031D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2A7091F4C00F1008031D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2A7121F4C00F1008031D6 /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A2A7141F4C00F1008031D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2A71D1F4C00F1008031D6 /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0A2A70F1F4C00F1008031D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A2A6F31F4C00F1008031D6 /* 等待提示器和警告对话框 */;
+			targetProxy = F0A2A70E1F4C00F1008031D6 /* PBXContainerItemProxy */;
+		};
+		F0A2A71A1F4C00F1008031D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A2A6F31F4C00F1008031D6 /* 等待提示器和警告对话框 */;
+			targetProxy = F0A2A7191F4C00F1008031D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0A2A7001F4C00F1008031D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A2A7011F4C00F1008031D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0A2A7051F4C00F1008031D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A2A7061F4C00F1008031D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0A2A71F1F4C00F1008031D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0A2A7201F4C00F1008031D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A2A7221F4C00F1008031D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "等待提示器和警告对话框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0A2A7231F4C00F1008031D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "等待提示器和警告对话框/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0A2A7251F4C00F1008031D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "等待提示器和警告对话框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/等待提示器和警告对话框.app/等待提示器和警告对话框";
+			};
+			name = Debug;
+		};
+		F0A2A7261F4C00F1008031D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "等待提示器和警告对话框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/等待提示器和警告对话框.app/等待提示器和警告对话框";
+			};
+			name = Release;
+		};
+		F0A2A7281F4C00F1008031D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "等待提示器和警告对话框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "等待提示器和警告对话框";
+			};
+			name = Debug;
+		};
+		F0A2A7291F4C00F1008031D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "等待提示器和警告对话框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhdk.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "等待提示器和警告对话框";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0A2A6EF1F4C00F1008031D6 /* Build configuration list for PBXProject "等待提示器和警告对话框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A2A71F1F4C00F1008031D6 /* Debug */,
+				F0A2A7201F4C00F1008031D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A2A7211F4C00F1008031D6 /* Build configuration list for PBXNativeTarget "等待提示器和警告对话框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A2A7221F4C00F1008031D6 /* Debug */,
+				F0A2A7231F4C00F1008031D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0A2A7241F4C00F1008031D6 /* Build configuration list for PBXNativeTarget "等待提示器和警告对话框Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A2A7251F4C00F1008031D6 /* Debug */,
+				F0A2A7261F4C00F1008031D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0A2A7271F4C00F1008031D6 /* Build configuration list for PBXNativeTarget "等待提示器和警告对话框UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A2A7281F4C00F1008031D6 /* Debug */,
+				F0A2A7291F4C00F1008031D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0A2A6EC1F4C00F1008031D6 /* Project object */;
+}
